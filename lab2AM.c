@@ -4,6 +4,11 @@
 long Factorial(long num);
 int IsPalidrome(long value);
 int HighestBitSet(int value);
+void ReverseIt(void);
+void ReverseItAgain(void);
+void ReverseItAgain(void);
+
+
 
 
 int main(void)
@@ -108,7 +113,7 @@ void ReverseItAgain(void)
         fclose(fptr); 
 }
 
-void Pyramid(int lines)
+void ReverseItAgain(void)
 {
         int x,y,z; 
         for (x = 1; x <= lines; ++x, y = 0)  
